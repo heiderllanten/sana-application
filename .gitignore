@@ -1,0 +1,48 @@
+# Ignorar archivos generados por Visual Studio
+.vs/
+bin/
+obj/
+
+# Ignorar archivos generados por Rider
+.idea/
+
+# Ignorar archivos de compilación de .NET
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.vscode/
+*.nupkg
+
+# Ignorar archivos de dependencias de Node.js
+node_modules/
+
+# Ignorar archivos de compilación de React
+/build/
+
+# Ignorar archivos de configuración local (ejemplos)
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Ignorar archivos de caché y logs generados automáticamente
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+*.log*
+*.yml
+
+# Ignorar archivos de respaldo y temporales
+*~
+*.swp
+*.tmp
+
+# Archivo de respaldo de VS Code
+.vscode/
+
+# Archivo de bloqueo de npm
+.lock
